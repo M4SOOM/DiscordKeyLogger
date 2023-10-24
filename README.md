@@ -1,54 +1,26 @@
 # DiscordKeyLogger
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#disclaimer">Disclaimer</a></li>
-  </ol>
-</details>
-
-## About The Project
-
-A Discord keylogger is a type of malware that can be used to steal Discord users' keystrokes. This can include their usernames, passwords, and other sensitive information. Keyloggers are often installed on computers without the user's knowledge, and they can be difficult to detect. Once installed, this keylogger can begin recording the user's keystrokes and sending them to the attacker via Discord Webhook URL specified in the Python Code.
+A Discord keylogger is a type of malware that can be used to steal Discord users' keystrokes. This can include their usernames, passwords, and other sensitive information. Keyloggers are often installed on computers without the user's knowledge, and they can be difficult to detect. This Keylogger is designed to run in the background without being detected by the user. It creates no such log files on the system which can make it difficult for antivirus software to find them. Once installed, this keylogger can begin recording the user's keystrokes and sending them to the attacker via Discord Webhook URL specified in the Python Code. 
 
 ### Built With
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### Installation
 
-1. Get the latest version of Pycharm downloaded. </br>
+1. Get the latest version of Pycharm/Visual Studio Code downloaded. </br>
    </br> ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-   </br>
+   </br> ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 3. Clone the repository
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/M4SOOM/DiscordKeyLogger.git
    ```
-4. Install NPM packages
+4. Install packages
    ```sh
-   npm install
+   pip install Keyboard
    ```
-5. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+5. Replace 'WEBHOOK_URL' with your actual Discord webhook URL in `main.py`
+6. Run the Code
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+</br>
 
 ## Disclaimer
 
